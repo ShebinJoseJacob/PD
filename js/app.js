@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
 
     // Send subscription to server
-    await fetch('https://push-ej51.onrender.com:4000/subscribe', {
+    await fetch('https://notify-zb20.onrender.com:4000/subscribe', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
