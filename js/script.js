@@ -87,14 +87,14 @@ generateCurrentWeek();
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyDO0uzzxzqLgfenngsAIJbvV5riUilnSn8",
-    authDomain: "abcd-21cfe.firebaseapp.com",
-    databaseURL: "https://abcd-21cfe-default-rtdb.firebaseio.com",
-    projectId: "abcd-21cfe",
-    storageBucket: "abcd-21cfe.firebasestorage.app",
-    messagingSenderId: "383825682733",
-    appId: "1:383825682733:web:e4568a0b63a88bdc6033a4"
-  };
+  apiKey: "AIzaSyBu_nfPpnejF7yUplIxXQdhUqqh8JwENRo",
+  authDomain: "pill-dispenser-3e91d.firebaseapp.com",
+  databaseURL: "https://pill-dispenser-3e91d-default-rtdb.firebaseio.com",
+  projectId: "pill-dispenser-3e91d",
+  storageBucket: "pill-dispenser-3e91d.firebasestorage.app",
+  messagingSenderId: "935410313630",
+  appId: "1:935410313630:web:49582dc37d381d74274e8f"
+}; 
 
 // Initialize Firebase
 const app = firebase.initializeApp(firebaseConfig);
