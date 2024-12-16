@@ -10,7 +10,7 @@ if ('serviceWorker' in navigator && 'PushManager' in window) {
         });
 }
 
-document.getElementById('notify').addEventListener('click', async () => {
+document.addEventListener('DOMContentLoaded', async () => {
     const registration = await navigator.serviceWorker.ready;
 
     // Request notification permission
@@ -35,6 +35,7 @@ document.getElementById('notify').addEventListener('click', async () => {
         body: JSON.stringify(subscription),
     });
 });
+
 
 function urlBase64ToUint8Array(base64String) {
     const padding = '='.repeat((4 - (base64String.length % 4)) % 4);
