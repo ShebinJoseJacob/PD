@@ -1,4 +1,4 @@
-const publicKey = 'BAVqYcw91jG8w7OL3x4VgSf0b_GAxY4kSG53IxBRT-MvYQ2M3DO1Wu_mlCQw2vnFUrHqicpf5sVzbN1Pf0IMWUU';
+const publicKey = 'BFtX42XNx31EmwuVegKXPhX6bW8AiVOEACYRmB6Lz1-uAAee7IIF5YXX8e7U4fNzYe6x2GNkP8YYPq9sdyXVu10';
 
 if ('serviceWorker' in navigator && 'PushManager' in window) {
     navigator.serviceWorker.register('service-worker.js')
